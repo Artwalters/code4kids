@@ -86,7 +86,7 @@ span {
   margin-top: 1rem;
 }
 
-/* .checkbox1, .checkbox2, .checkbox3, .checkbox4, .checkbox5  */
+/* ///////checkbox link met accordion////////////// */
 
 .checkbox {
   float: left;
@@ -99,19 +99,38 @@ span {
   border-radius: 15px;
 }
 
+.checkbox1, .checkbox2, .checkbox3, .checkbox4, .checkbox5 {
+  background-image: none;
+}
+
+.checkbox1-done, .checkbox2-done, .checkbox3-done, .checkbox4-done, .checkbox5-done {
+  background-image: url(../img/done.svg);
+  background-image: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.check-accordion1, .check-accordion2, .check-accordion3, .check-accordion4, .check-accordion5 {
+  background-image: none;
+}
+
+.check-accordion1-done, .check-accordion2-done, .check-accordion3-done, .check-accordion4-done, .check-accordion5-done {
+  background-image: url(../img/done-check.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin-top: -10px;
+  display: block;
+}
+
 .checkbox img {
   width: 30px;
   height: 30px;
   margin-left: 5px;
   margin-top: 5px;
-  display: none;
-}
-
-.checkbox.active img {
-  display: block;
-}
-
-.check.active {
   display: none;
 }
 
@@ -218,7 +237,7 @@ button {
 
 .hero-container {
   display: inline block;
-  background-image: url(../img/hero-img-foto.png);
+  background-image: url(../img/hero-img.png);
   width: 736px;
   height: 450px;
   display: block;
@@ -403,13 +422,6 @@ iframe {
   margin-right: 1rem;
   margin-top: -5px;
   background-size: cover;
-}
-
-.check {
-  float: right;
-  width: 40px;
-  margin-top: -10px;
-  display: block;
 }
 
 h3 {
