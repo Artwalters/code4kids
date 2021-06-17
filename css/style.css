@@ -156,7 +156,7 @@ header .logo {
 }
 
 header #switch {
-  background-image: url(/img/switch.png);
+  background-image: url(../img/switch.png);
   float: right;
   margin-top: -1.5rem;
   width: 90px;
@@ -195,7 +195,7 @@ h1 {
   width: 720px;
   display: block;
   margin: 0 auto;
-  background-image: url(/img/marker-detail-lets-code-together.png);
+  background-image: url(../img/marker-detail-lets-code-together.png);
 }
 
 p.hero-subtxt {
@@ -218,7 +218,7 @@ button {
 
 .hero-container {
   display: inline block;
-  background-image: url(/img/hero-img-foto.png);
+  background-image: url(../img/hero-img-foto.png);
   width: 736px;
   height: 450px;
   display: block;
@@ -336,7 +336,7 @@ p.team-subtxt {
 }
 
 .text-container-team {
-  background-image: url(/img/marker-detail-ontmoet-het-team.png);
+  background-image: url(../img/marker-detail-ontmoet-het-team.png);
   width: 294px;
   margin-bottom: 3rem;
 }
@@ -360,7 +360,7 @@ main section.lesmateriaal {
   margin: 0 auto;
   padding-top: 4rem;
   padding-bottom: 2rem;
-  background-image: url(/img/markter-detail-start-met-ons-lespakket.png);
+  background-image: url(../img/markter-detail-start-met-ons-lespakket.png);
   background-size: 140%;
 }
 
